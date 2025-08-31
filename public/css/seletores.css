@@ -24,3 +24,67 @@
 }
 
 /** Continue aqui **/
+
+.content ul.demo>#unico{
+    color: red;
+}
+
+.content ul.demo>li[data-type="attr"]{
+    text-decoration: underline;
+}
+
+.content ul.demo>li[data-role~="user"]{
+    font-style: italic;
+}
+
+.content ul.demo>li[data-role="admin user"] + li{
+    font-size: x-large;
+}
+
+.content ul.demo li:nth-child(6) {
+  border: 2px solid blue;
+}
+
+.content ul.demo>li.ativo {
+    background-color: grey;
+}
+
+.content ul.demo>li.ativo + li{
+    span{ font-weight: bold;}
+    strong{ font-weight: normal;}
+}
+
+.content ul.demo>li.destaque{
+    text-transform: uppercase;
+}
+
+.content ul.demo>li[lang="pt-br"]{
+    color: green;
+}
+
+.content ul.demo>li[title="começa-com"]{
+    font-style: italic;
+}
+
+.content ul.demo>li:last-child{
+    background-color: pink;
+}
+
+
+/* Aplica o "!important". Sobrepõe todos background-colors manipulados pelo js*/
+.selected{
+    background-color: #00FF00 !important;
+}
+
+
+/*---------RESPONSIVIDADE--------*/
+
+@media (max-width: 768px) {
+    main{
+        flex-direction: column;
+    }
+    aside img{
+        max-width: 100%;
+    }
+}
+
