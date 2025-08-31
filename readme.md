@@ -15,7 +15,7 @@
 1. Clonar o repositório:
 
    ```sh
-   git clone https://github.com/luan-tavares/unifaat-frontend-tf-aula02-css-seletores
+   git clone https://github.com/jefferson6380/DesenvolvimentoMobileTF02.git
    ```
 
 2. Entrar na pasta do projeto:
